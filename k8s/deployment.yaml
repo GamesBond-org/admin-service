@@ -25,7 +25,7 @@ spec:
         - containerPort: 4007
         envFrom:
         - configMapRef:
-            name: admin-service-config
+            name: admin-service-devconfig
         - secretRef:
             name: admin-service-secret
         resources:
